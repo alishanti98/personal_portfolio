@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <label for="check"> <div id="menu" class="fas fa-bars"></div></label>
+    <input type="checkbox" id="check" />
+    <header>
+      <div class="user">
+        <img src="images/home.jpg" alt="" />
+        <h3 class="name">Ali Al-Shanti</h3>
+        <p class="post">front end developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#mywork">My Work</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Ali Al-Shanti</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam
+        tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Necessitatibus, at.
+      </p>
+      <a href="#about"><button class="btn">about me</button></a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Ali Al-Shanti</h3>
+          <h3><span> age : </span> 23</h3>
+          <h3><span> qualification : </span> Bachelor</h3>
+          <h3><span> post : </span> front end developer</h3>
+          <h3><span> language : </span> Arabic & English</h3>
+          <a href="#"><button class="btn">About Me</button></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>95%</span>
+            <h3>HTML5</h3>
+          </div>
+
+          <div class="box">
+            <span>95%</span>
+            <h3>CSS3</h3>
+          </div>
+
+          <div class="box">
+            <span>65%</span>
+            <h3>JAVASCRIPT</h3>
+          </div>
+
+          <div class="box">
+            <span>50%</span>
+            <h3>UX/UI</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- my work section starts  -->
+
+    <section class="mywork" id="mywork">
+      <h1 class="heading">my <span>My Work</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/work1.jpg" alt="twitter1" />
+        </div>
+
+        <div class="box">
+          <img src="images/work2.jpg" alt="project2" />
+        </div>
+
+        <div class="box">
+          <img src="images/work3.jpg" alt="project3" />
+        </div>
+
+        <div class="box">
+          <img src="images/work4.jpg" alt="project4" />
+        </div>
+
+        <div class="box">
+          <img src="images/work5.jpg" alt="project5" />
+        </div>
+
+        <div class="box">
+          <img src="images/work6.jpg" alt="project6" />
+        </div>
+      </div>
+    </section>
+
+    <!-- my work section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> alialshanti@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> 0598720048</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Gaza , Al Nasser Street .
+            </h3>
+            <div class="social">
+              <a
+                href="https://www.codewars.com/users/alishanti98"
+                target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
+              <a href="https://github.com/alishanti98/" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.freecodecamp.org/alishanti98" target="_blank"
+                ><i class="fab fa-free-code-camp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
